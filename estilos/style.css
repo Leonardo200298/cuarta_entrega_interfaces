@@ -13,8 +13,26 @@
     --color-boton: #83C252;
 }
 
+
 .primeraSeccion {
     background-image: url("../images/primerFondo.png");
+}
+.oculto{
+    display: none;
+}
+
+/* Contenedor para alinear las barras en el centro del botón */
+.botonBarraNav {
+    display: flex;
+    background: rgb(0,209,213);
+background: linear-gradient(180deg, rgba(0,209,213,1) 0%, rgba(0,209,213,0.12) 88%, rgba(1,208,213,0) 100%);
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 0 60px 0 60px; */
+}
+
+.botonHamburguesa{
+    margin: 20px 0px 57px 100px;
 }
 
 .barrasDeNavegacion {
@@ -22,41 +40,38 @@
     background-color: var(--color-de-nav);
     display: flex;
     flex-direction: column;
-    width: 40px;
-    height: 8px;
-    margin: 6px 0;
-    box-shadow: 3px 3px 0 var(--color-sombra); /* sombra para la profundidad */
+    width: 34px;
+    height: 4px;
+    margin-top: -1px;
+    box-shadow: 4px 5px 0 var(--color-sombra);
+    border-radius: 111px;
+    border: solid white;
 }
 
 .imagenLogo{
     width: 150px;
     height: 86px;
+    margin: 6px 0px 11px 0px;
 }
 
-
-/* Contenedor para alinear las barras en el centro del botón */
-.botonBarraNav {
-    display: flex;
- 
-    align-items: center;
-    justify-content: space-around;
-    /* margin: 0 60px 0 60px; */
-}
 .botonComprar {
     background-color:var(--color-boton);
     color: white;
-    font-size: larger;
-    font-weight: bold;
+    font-size: 20px;
     border-style: solid;
     border-color: white;
     border-width: 8px;
-    width: 200px;
-    height: 50px;
+
     border-radius: 111px;
     box-shadow: 5px 5px 0 var(--color-sombra);
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    padding: 16px 43px 15px 43px;
+    margin: 20px 100px 33px;
+
 }
 
