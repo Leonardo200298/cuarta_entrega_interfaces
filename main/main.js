@@ -1,8 +1,6 @@
-let loQueRompo = document.querySelector("#destruyed");
-
 window.addEventListener("scroll", romper);
 
 function romper(){
+    console.log("sfanjsfnajs")
 
-    loQueRompo.innerHTML = "<div></div>"
 }

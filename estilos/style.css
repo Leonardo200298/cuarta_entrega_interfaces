@@ -24,13 +24,20 @@
 /* Contenedor para alinear las barras en el centro del botón */
 .botonBarraNav {
     display: flex;
+    flex-direction: column;
+    position: sticky;
     background: rgb(0,209,213);
-background: linear-gradient(180deg, rgba(0,209,213,1) 0%, rgba(0,209,213,0.12) 88%, rgba(1,208,213,0) 100%);
-    align-items: center;
-    justify-content: space-around;
-    /* margin: 0 60px 0 60px; */
-}
+/* background: linear-gradient(180deg, rgba(0,209,213,1) 0%, rgba(0,209,213,0.12) 88%, rgba(1,208,213,0) 100%); */
 
+/*     justify-content: space-around; */
+    /* margin: 0 60px 0 60px; */
+/*     margin:55px 359px 0px 360px; */
+}
+.claseHamburCompra{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
 .botonHamburguesa{
     margin: 20px 0px 57px 100px;
 }
@@ -49,10 +56,11 @@ background: linear-gradient(180deg, rgba(0,209,213,1) 0%, rgba(0,209,213,0.12) 8
 }
 
 .imagenLogo{
-    width: 150px;
-    height: 86px;
-    margin: 6px 0px 11px 0px;
+    width: 560px;
+    height: 320px;
+    margin: 55px 359px 0px 360px;
 }
+
 
 .botonComprar {
     background-color:var(--color-boton);
