@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -6,80 +6,125 @@
     border: none;
     outline: none;
     max-width: 1280px;
-}
-:root {
-    --color-de-nav: #F39F47;
-    --color-sombra: #003366; /* color de la sombra azul oscuro */
-    --color-boton: #83C252;
-}
-
-
-.primeraSeccion {
-    background-image: url("../images/primerFondo.png");
-}
-.oculto{
-    display: none;
-}
-
-/* Contenedor para alinear las barras en el centro del botón */
-.botonBarraNav {
+  }
+ 
+  header {
+    position: absolute;
+    width: 1200px;
+    height: 103px;
     display: flex;
     flex-direction: column;
-    position: sticky;
-    background: rgb(0,209,213);
-/* background: linear-gradient(180deg, rgba(0,209,213,1) 0%, rgba(0,209,213,0.12) 88%, rgba(1,208,213,0) 100%); */
-
-/*     justify-content: space-around; */
-    /* margin: 0 60px 0 60px; */
-/*     margin:55px 359px 0px 360px; */
-}
-.claseHamburCompra{
+    justify-content: space-between;
+    z-index: 100;
+  }
+  header > div {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-}
-.botonHamburguesa{
-    margin: 20px 0px 57px 100px;
-}
-
-.barrasDeNavegacion {
-    border-radius: 10px; /* esquinas redondeadas */
-    background-color: var(--color-de-nav);
+  }
+  .menuHambNB {
     display: flex;
     flex-direction: column;
+    margin: 20px 100px;
+  }
+  .menuHambNB div {
     width: 34px;
     height: 4px;
-    margin-top: -1px;
-    box-shadow: 4px 5px 0 var(--color-sombra);
+    border: solid;
     border-radius: 111px;
-    border: solid white;
-}
-
-.imagenLogo{
-    width: 560px;
-    height: 320px;
-    margin: 55px 359px 0px 360px;
-}
-
-
-.botonComprar {
-    background-color:var(--color-boton);
+    border-color: white;
+    background-color: #f39e46;
+    box-shadow: 4px 5px #02187e;
+  }
+  .btn-comprarNB {
+    padding: 16px 43px 15px 43px;
+    border: solid;
+    border-width: 8px;
+    border-radius: 111px;
+    border-color: white;
+    background-color: #83c252;
+    box-shadow: 4px 5px #02187e;
     color: white;
     font-size: 20px;
-    border-style: solid;
-    border-color: white;
-    border-width: 8px;
-
-    border-radius: 111px;
-    box-shadow: 5px 5px 0 var(--color-sombra);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    padding: 16px 43px 15px 43px;
-    margin: 20px 100px 33px;
-
-}
-
+  }
+  header img {
+    position: relative;
+    width: 560px;
+    height: 320px;
+  
+    left: 360px;
+  }
+  .section1 {
+    background-image: url("/images/primerFondo.png");
+    height: 959px;
+    overflow: hidden;
+    position: relative;
+    z-index: -10;
+  }
+  #arbol1 {
+    margin-top: 0.69px;
+    margin-left: -150px;
+  }
+  #arbol2 {
+    position: absolute;
+    left: 881px;
+    bottom: 179px;
+  }
+  #arbol3 {
+    position: absolute;
+    bottom: 249px;
+    right: -80px;
+    z-index: -2px;
+  }
+  #arbusto1 {
+    position: absolute;
+    top: 719px;
+    left: 161px;
+    z-index: -1;
+  }
+  #arbusto2 {
+    position: absolute;
+    bottom: 39px;
+    left: 197px;
+    z-index: 2;
+  }
+  #arbusto3 {
+    position: absolute;
+    bottom: 189px;
+    right: -33px;
+    z-index: -1;
+  }
+  #piedra1 {
+    position: absolute;
+    top: 793px;
+    left: 129px;
+    z-index: 1;
+  }
+  #piedra2 {
+    position: absolute;
+    right: 177px;
+    bottom: 164px;
+  }
+  #piedra3 {
+    position: absolute;
+    right: 92px;
+    bottom: 147px;
+    z-index: 1;
+  }
+  #piedra4 {
+    position: absolute;
+    right: 177px;
+    bottom: 137px;
+    z-index: 2;
+  }
+  #pj2 {
+    position: absolute;
+    left: 536px;
+    bottom: 259px;
+    z-index: -1;
+  }
+  #pj3 {
+    position: absolute;
+    right: 355px;
+    bottom: 215px;
+    z-index: -2;
+  }
