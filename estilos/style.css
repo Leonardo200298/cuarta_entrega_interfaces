@@ -132,6 +132,19 @@
     background-image: url("/images/ondaDeFondoDelFondo2.png");
     background-repeat: no-repeat;
 }
-.ondaDeFondo{
+.fondo{
     background-image: url("/images/segundoFondo.png");
+/*     z-index: 100; */
+}
+.primerTextoDeSegundaSeccion{
+    font-family: "Lato", serif;
+    font-weight: 500;
+}
+.segundoTextoDeSegundaSeccion{
+    font-family: "Lato", serif;
+    font-weight: 400;
+}
+.cuadroAzul{
+    border: solid 23px blue;
+    border-radius: 20%;
 }
