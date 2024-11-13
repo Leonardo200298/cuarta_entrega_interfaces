@@ -136,15 +136,29 @@
     background-image: url("/images/segundoFondo.png");
 /*     z-index: 100; */
 }
+.ubicacionTextoSegundaSeccion{
+    margin-left:100px;
+    
+}
 .primerTextoDeSegundaSeccion{
     font-family: "Lato", serif;
     font-weight: 500;
+    width: 508px;
+    height: 132px;  
+    font-size: 47px;
+    margin-bottom: 42px;
 }
 .segundoTextoDeSegundaSeccion{
+    margin-top: 6px;
     font-family: "Lato", serif;
     font-weight: 400;
+    width: 704px;
+    height: 154px;   
+    font-size: 20px; 
 }
 .cuadroAzul{
     border: solid 23px blue;
-    border-radius: 20%;
+    border-radius: 77px;
+    width: 576.38px;
+    height: 324.35px;
 }
