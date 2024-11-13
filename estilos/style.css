@@ -128,3 +128,9 @@
     bottom: 215px;
     z-index: -2;
   }
+.section2{
+    background-image: url("/images/ondaDeFondoDelFondo2.png");
+}
+.ondaDeFondo{
+    background-image: url("/images/segundoFondo.png");
+}
