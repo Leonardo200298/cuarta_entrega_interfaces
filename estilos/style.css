@@ -130,6 +130,7 @@
   }
 .section2{
     background-image: url("/images/ondaDeFondoDelFondo2.png");
+    background-repeat: no-repeat;
 }
 .ondaDeFondo{
     background-image: url("/images/segundoFondo.png");
