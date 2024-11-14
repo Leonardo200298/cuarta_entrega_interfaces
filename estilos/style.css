@@ -1,178 +1,399 @@
+/* "/images/primerFondo.png" */
+/* "/images/ondaDeFondoDelFondo2.png" */
+/* "/images/segundoFondo.png" */
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    max-width: 1280px;
-  }
- 
-  header {
-    position: absolute;
-    width: 1200px;
-    height: 103px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 100;
-  }
-  header > div {
-    display: flex;
-    justify-content: space-between;
-  }
-  .menuHambNB {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 100px;
-  }
-  .menuHambNB div {
-    width: 34px;
-    height: 4px;
-    border: solid;
-    border-radius: 111px;
-    border-color: white;
-    background-color: #f39e46;
-    box-shadow: 4px 5px #02187e;
-  }
-  .btn-comprarNB {
-    padding: 16px 43px 15px 43px;
-    border: solid;
-    border-width: 8px;
-    border-radius: 111px;
-    border-color: white;
-    background-color: #83c252;
-    box-shadow: 4px 5px #02187e;
-    color: white;
-    font-size: 20px;
-  }
-  header img {
-    position: relative;
-    width: 560px;
-    height: 320px;
-  
-    left: 360px;
-  }
-  .section1 {
-    background-image: url("/images/primerFondo.png");
-    height: 959px;
-    overflow: hidden;
-    position: relative;
-    z-index: -10;
-  }
-  #arbol1 {
-    margin-top: 0.69px;
-    margin-left: -150px;
-  }
-  #arbol2 {
-    position: absolute;
-    left: 881px;
-    bottom: 179px;
-  }
-  #arbol3 {
-    position: absolute;
-    bottom: 249px;
-    right: -80px;
-    z-index: -2px;
-  }
-  #arbusto1 {
-    position: absolute;
-    top: 719px;
-    left: 161px;
-    z-index: -1;
-  }
-  #arbusto2 {
-    position: absolute;
-    bottom: 39px;
-    left: 197px;
-    z-index: 2;
-  }
-  #arbusto3 {
-    position: absolute;
-    bottom: 189px;
-    right: -33px;
-    z-index: -1;
-  }
-  #piedra1 {
-    position: absolute;
-    top: 793px;
-    left: 129px;
-    z-index: 1;
-  }
-  #piedra2 {
-    position: absolute;
-    right: 177px;
-    bottom: 164px;
-  }
-  #piedra3 {
-    position: absolute;
-    right: 92px;
-    bottom: 147px;
-    z-index: 1;
-  }
-  #piedra4 {
-    position: absolute;
-    right: 177px;
-    bottom: 137px;
-    z-index: 2;
-  }
-  #pj2 {
-    position: absolute;
-    left: 536px;
-    bottom: 259px;
-    z-index: -1;
-  }
-  #pj3 {
-    position: absolute;
-    right: 355px;
-    bottom: 215px;
-    z-index: -2;
-  }
-.section2{
-    background-image: url("/images/ondaDeFondoDelFondo2.png");
-    background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  max-width: 1280px;
 }
-.fondo{
-    background-image: url("/images/segundoFondo.png");
-/*     z-index: 100; */
-}
-.ubicacionTextoSegundaSeccion{
-    margin-left:80px;
-    
-}
-.primerTextoDeSegundaSeccion{
-    font-family: "Lato", serif;
-    font-weight: 500;
-    width: 508px;
-    height: 132px;  
-    font-size: 47px;
-    margin-bottom: 42px;
-}
-.segundoTextoDeSegundaSeccion{
-    margin-top: 6px;
-    font-family: "Lato", serif;
-    font-weight: 400;
-    width: 704px;
-    height: 154px;   
-    font-size: 20px; 
-}
-.cuadroAzul{
-    border: solid 23px #1B5F99;
-    border-radius: 77px;
-    width: 576.38px;
-    height: 324.35px;
-}
-.personaje4{
+
+header {
   position: absolute;
-  top:1800px;
-  left: 200px
+  width: 1200px;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 100;
 }
-.personaje5{
+
+header>div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuHambNB {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 100px;
+}
+
+.menuHambNB div {
+  width: 34px;
+  height: 4px;
+  border: solid;
+  border-radius: 111px;
+  border-color: white;
+  background-color: #f39e46;
+  box-shadow: 4px 5px #02187e;
+}
+
+.btn-comprarNB {
+  padding: 16px 43px 15px 43px;
+  border: solid;
+  border-width: 8px;
+  border-radius: 111px;
+  border-color: white;
+  background-color: #83c252;
+  box-shadow: 4px 5px #02187e;
+  color: white;
+  font-size: 20px;
+}
+
+header img {
+  position: relative;
+  width: 560px;
+  height: 320px;
+
+  left: 360px;
+}
+
+.section1 {
+  background-image: url("/images/primerFondo.png");
+  height: 959px;
+  overflow: hidden;
+  position: relative;
+  z-index: -10;
+}
+
+#arbol1 {
+  position:absolute;
+  top: 0.69px;
+  margin-left: -150px;
+}
+
+#arbol2 {
+  position: absolute;
+  left: 881px;
+  bottom: 179px;
+}
+
+#arbol3 {
+  position: absolute;
+  bottom: 249px;
+  right: -80px;
+  z-index: -2px;
+}
+
+#arbusto1 {
+  position: absolute;
+  top: 719px;
+  left: 161px;
+  z-index: -1;
+}
+
+#arbusto2 {
+  position: absolute;
+  bottom: 39px;
+  left: 197px;
+  z-index: 2;
+}
+
+#arbusto3 {
+  position: absolute;
+  bottom: 189px;
+  right: -33px;
+  z-index: -1;
+}
+
+#piedra1 {
+  position: absolute;
+  top: 793px;
+  left: 129px;
+  z-index: 1;
+}
+
+#piedra2 {
+  position: absolute;
+  right: 177px;
+  bottom: 164px;
+}
+
+#piedra3 {
+  position: absolute;
+  right: 92px;
+  bottom: 147px;
+  z-index: 1;
+}
+
+#piedra4 {
+  position: absolute;
+  right: 177px;
+  bottom: 137px;
+  z-index: 2;
+}
+
+#pj1{
+  position: absolute;
+  left: 536px;
+  bottom: 259px;
+}
+
+#pj2 {
+  position: absolute;
+  left: 436px;
+  bottom: 259px;
+  z-index: -1;
+}
+
+#pj3 {
+  position: absolute;
+  right: 355px;
+  bottom: 215px;
+  z-index: -2;
+}
+
+.section2 {
+  background-image: url("/images/segundoFondo.png");
+  background-repeat: no-repeat;
+
+}
+
+.fondo {
+  
+  background-image: url("/images/ondaDeFondoDelFondo2.png");
+  /*z-index: 100; */
+}
+
+.ubicacionTextoSegundaSeccion {
+  margin-left: 80px;
+
+}
+
+.primerTextoDeSegundaSeccion {
+  font-family: "Lato", serif;
+  font-weight: 500;
+  width: 508px;
+  height: 132px;
+  font-size: 47px;
+  margin-bottom: 42px;
+}
+
+.segundoTextoDeSegundaSeccion {
+  margin-top: 6px;
+  font-family: "Lato", serif;
+  font-weight: 400;
+  width: 704px;
+  height: 154px;
+  font-size: 20px;
+}
+
+.cuadroAzul {
+  border: solid 23px #1B5F99;
+  border-radius: 77px;
+  width: 576.38px;
+  height: 324.35px;
+}
+
+.personaje4 {
+  position: absolute;
+  top: 1520px;
+  left: -32px
+}
+
+.personaje5 {
   position: absolute;
   left: 788px;
-  top:900px;
+  top: 800px;
 }
-.cuadroAzul{
+
+.cuadroAzul {
   position: absolute;
   right: 600px;
 }
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  max-width: 1280px;
+  font-family: "Lato";
+}
+
+header {
+  position: absolute;
+  width: 1200px;
+  height: 103px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 100;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+}
+.menuHambNB {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.menuHambNB div {
+  width: 34px;
+  height: 4px;
+  border: solid;
+  border-radius: 111px;
+  border-color: white;
+  background-color: #f39e46;
+  box-shadow: 4px 5px #02187e;
+}
+.btn-comprarNB {
+  padding: 16px 43px 15px 43px;
+  border: solid;
+  border-width: 8px;
+  border-radius: 111px;
+  border-color: white;
+  background-color: #83c252;
+  box-shadow: 4px 5px #02187e;
+  color: white;
+
+  font-weight: 900;
+  font-size: 20px;
+  -webkit-text-stroke: 1px;
+  letter-spacing: 2px;
+  line-height: 94.5%;
+}
+header img {
+  position: absolute;
+  width: 560px;
+  height: 320px;
+  left: 360px;
+}
+.section1 {
+  background-image: url(../imagesNB/fondoNB.svg);
+  height: 959px;
+  overflow: hidden;
+  position: relative;
+  z-index: -10;
+}
+#arbol1 {
+  margin-top: 0.69px;
+  margin-left: -150px;
+}
+#arbol2 {
+  position: absolute;
+  left: 881px;
+  bottom: 179px;
+}
+#arbol3 {
+  position: absolute;
+  bottom: 249px;
+  left: 1081px;
+  z-index: -2;
+}
+#arbusto1 {
+  position: absolute;
+  top: 719px;
+  left: 161px;
+  z-index: -1;
+}
+#arbusto2 {
+  position: absolute;
+  bottom: 39px;
+  left: 197px;
+  z-index: 2;
+}
+#arbusto3 {
+  position: absolute;
+  bottom: 189px;
+  right: -33px;
+  z-index: -1;
+}
+#arbusto4 {
+  position: absolute;
+  z-index: -3;
+  bottom: 265px;
+  right: 59px;
+}
+#piedra1 {
+  position: absolute;
+  top: 793px;
+  left: 129px;
+  z-index: 1;
+}
+#piedra2 {
+  position: absolute;
+  right: 177px;
+  bottom: 164px;
+}
+#piedra3 {
+  position: absolute;
+  right: 92px;
+  bottom: 147px;
+  z-index: 1;
+}
+#piedra4 {
+  position: absolute;
+  right: 177px;
+  bottom: 137px;
+  z-index: 2;
+}
+#pj2 {
+  position: absolute;
+  left: 536px;
+  bottom: 259px;
+  z-index: -1;
+}
+#pj3 {
+  position: absolute;
+  right: 355px;
+  bottom: 215px;
+  z-index: -2;
+}
+
+.section2 {
+  background-image: url(../imagesNB/fondoNBs2.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  height: 1852px;
+  z-index: -10;
+}
+.section2 h1 {
+  position: absolute;
+  top: 55px;
+  left: 100px;
+  color: #1b428f;
+  width: 508px;
+  height: 132px;
+  font-weight: 600;
+  font-size: 47px;
+}
+.section2 p {
+  margin-top: 22px;
+  position: absolute;
+  top: 214px;
+  left: 100px;
+  color: #1b428f;
+  width: 700px;
+  height: 154px;
+  font-size: 20px;
+}
+#pj4 {
+  position: absolute;
+  top: 566px;
+  left: 48px;
+}
+#pj5 {
+  position: absolute;
+  top: -87px;
+  left: 787px;
+} */
