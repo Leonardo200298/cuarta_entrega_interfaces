@@ -80,12 +80,14 @@ header img {
   position:absolute;
   top: -1px;
   margin-left: -153px;
+  z-index: 1;
 }
 
 #arbol2 {/* acomodado */
   position: absolute;
   top: 106.71px;
   left: 881.03px;
+  z-index: 3;
 }
 
 #arbol3 {/* acomodado */
@@ -113,7 +115,7 @@ header img {
   position: absolute;
   top: 821.65px;
   left: 197.06px;
-  z-index: -1;
+  z-index: 3;
 }
 
 #arbusto4{/* acomodado */
@@ -134,20 +136,21 @@ header img {
   position: absolute;
   top: 737.5px;
   left: 1072.22px;
+  z-index: 4;
 }
 
 #piedra3 {/* acomodado */
   position: absolute;
   top: 737.5px;
-  left: 1101.84px;
-  z-index: 1;
+  left: 1031.84px;
+  z-index: 3;
 }
 
 #piedra4 {/* acomodado */
   position: absolute;
   top: 786.64px;
-  left: 1101.84px;
-  z-index: 2;
+  left: 1042.84px;
+  z-index: 5;
 }
 
 #pj1{
