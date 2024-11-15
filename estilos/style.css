@@ -139,13 +139,14 @@ header img {
 
 #pj1{
   position: absolute;
-  left: 536px;
-  bottom: 259px;
+/*   left: 400px; */
+  right: 663px;
+  bottom: 119.25px;
 }
 
 #pj2 {
   position: absolute;
-  left: 436px;
+  left: 536px;
   bottom: 259px;
   z-index: -1;
 }
@@ -212,7 +213,7 @@ header img {
 .personaje5 {
   position: absolute;
   left: 788px;
-  top: 800px;
+  top: -79px;
 }
 
 .cuadroAzul {
