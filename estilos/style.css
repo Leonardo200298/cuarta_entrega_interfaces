@@ -152,13 +152,14 @@ header img {
 
 #pj1{
   position: absolute;
-  left: 536px;
-  bottom: 259px;
+/*   left: 400px; */
+  right: 663px;
+  bottom: 119.25px;
 }
 
 #pj2 {
   position: absolute;
-  left: 436px;
+  left: 536px;
   bottom: 259px;
   z-index: -1;
 }
@@ -170,34 +171,38 @@ header img {
   z-index: -2;
 }
 
+.fondo {
+  position: relative;
+  background-image: url("/images/ondaDeFondoDelFondo2.png");
+  height: 895px;
+}
 .section2 {
+  position: absolute;
   background-image: url("/images/segundoFondo.png");
   background-repeat: no-repeat;
 
 }
 
-.fondo {
-  
-  background-image: url("/images/ondaDeFondoDelFondo2.png");
-  /*z-index: 100; */
-}
 
 .ubicacionTextoSegundaSeccion {
-  margin-left: 80px;
+  position: absolute;
+  left: 80px;
 
 }
 
 .primerTextoDeSegundaSeccion {
+  position: absolute;
   font-family: "Lato", serif;
   font-weight: 500;
   width: 508px;
   height: 132px;
   font-size: 47px;
-  margin-bottom: 42px;
+  
 }
 
 .segundoTextoDeSegundaSeccion {
-  margin-top: 6px;
+  position: absolute;
+  top: 175px;
   font-family: "Lato", serif;
   font-weight: 400;
   width: 704px;
@@ -221,7 +226,7 @@ header img {
 .personaje5 {
   position: absolute;
   left: 788px;
-  top: 800px;
+  top: -79px;
 }
 
 .cuadroAzul {
