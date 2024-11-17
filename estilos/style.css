@@ -154,25 +154,44 @@ header img {
   z-index: 5;
 }
 
-#pj1{
+#pj1{/* acomodado */
   position: absolute;
-/*   left: 400px; */
-  right: 663px;
-  bottom: 119.25px;
+  top: 527.28px;
+  left: 411px;
+  opacity: 0px;
+  z-index: 3;
 }
 
-#pj2 {
+#pj2 {/* acomodado */
   position: absolute;
+  top: 426.04px;
   left: 536px;
-  bottom: 259px;
-  z-index: -1;
+  opacity: 0px;
+  z-index: 2;
 }
 
-#pj3 {
+#pj3 {/* acomodado */
   position: absolute;
   right: 355px;
   bottom: 215px;
-  z-index: -2;
+  top: 365px;
+  Left: 693.25px;
+  z-index: 1;
+}
+#sombraPersonaje1{/* acomodado */
+  position: absolute;
+  top: 773.28px;
+  left: 463px;
+}
+#sombraPersonaje2{/* acomodado */
+  position: absolute;
+  top: 746.04px;
+  left: 586px;
+}
+#sombraPersonaje3{
+  position: absolute;
+  top: 715px;
+  Left: 685.25px;
 }
 
 .section2 {
