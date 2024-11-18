@@ -1,6 +1,8 @@
 /* "/images/primerFondo.png" */
 /* "/images/ondaDeFondoDelFondo2.png" */
 /* "/images/segundoFondo.png" */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -63,6 +65,8 @@ header img {
   left: 360px;
 }
 
+/* seccion 1 */
+
 .section1 {
   background-image: url("/images/primerFondo.png");
   height: 959px;
@@ -72,7 +76,7 @@ header img {
 }
 
 #arbol1 {
-  position:absolute;
+  position: absolute;
   top: 0.69px;
   margin-left: -150px;
 }
@@ -138,9 +142,9 @@ header img {
   z-index: 2;
 }
 
-#pj1{
+#pj1 {
   position: absolute;
-/*   left: 400px; */
+
   right: 663px;
   bottom: 119.25px;
 }
@@ -159,6 +163,8 @@ header img {
   z-index: -2;
 }
 
+/* seccion 2 */
+
 .section2 {
   position: relative;
   background-image: url("/images/ondaDeFondoDelFondo2.png");
@@ -171,7 +177,7 @@ header img {
   position: absolute;
   left: 100px;
   top: 60px;
-  bottom:702px;
+  bottom: 702px;
   right: 672px;
 
 }
@@ -183,7 +189,7 @@ header img {
   width: 508px;
   height: 132px;
   font-size: 47px;
-  
+
 }
 
 .segundoTextoDeSegundaSeccion {
@@ -200,7 +206,7 @@ header img {
   position: absolute;
   top: 537px;
   left: 48px;
-  right:630.36px;
+  right: 630.36px;
   bottom: 32px;
   z-index: 2;
 }
@@ -220,60 +226,103 @@ header img {
   width: 576.38px;
   height: 324.35px;
   bottom: 213.65px;
-/*   right: 600px; */
+  /*   right: 600px; */
 }
 
-/* .imagenUltimaDeSeccion2Fondo1{
-  position: absolute;
-  bottom: 329.31px;
-  left: 100px;
-}
-.imagenUltimaDeSeccion2Fondo2{
-  position: absolute;
 
-  bottom: 329.31px;
-  left: 473.52px;
-}
-.imagenUltimaDeSeccion2Fondo3{
-  position: absolute;
-  bottom: 329.31px;
-  left: 847.04px;
-}
-.imagenUltimaDeSeccion2Fondo1 .textoAbajoImagen1{
-  position: absolute;
-  left:100px;
-  bottom: 88px;
-
-} */
-aside{
+aside {
   display: flex;
   flex-direction: column;
   width: 332px;
   height: 302px;
 }
+
 aside p {
   margin-top: 23.21px;
   width: 333px;
   height: 218px;
   color: black;
 }
+
 #card1 {
   position: absolute;
   bottom: 329px;
-  left:100px;
+  left: 100px;
 }
+
 #card2 {
   position: absolute;
   left: 473.52px;
   bottom: 329px;
 
 }
+
 #card3 {
   position: absolute;
   left: 847.04px;
   bottom: 329px;
 }
-.section3{
+
+/* seccion 3 */
+.section3 {
   background-image: url("/images/tercerFondo.png");
   height: 1157px;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 175px;
+  left: 165px;
+  right: 165px;
+  bottom: 829px;
+  font-size: 61px;
+  color: white;
+  width: 950px;
+  height: 153px;
+  line-height: 110%;
+  font-weight: 600;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.botonDescargaNB {
+  position: absolute;
+  width: 540px;
+  height: 66px;
+  bottom: 701px;
+  left: 370px;
+  right: 370px;
+  line-height: 110%;
+  font-size: 31px;
+  background-color: #83c252;
+  border: solid #ffffff 8px;
+  border-radius: 111px;
+  box-shadow: 4px 5px #02187e;
+  -webkit-text-stroke: 1px;
+  color: #ffffff;
+}
+
+.fondoDeSeccion3 {
+  position: absolute;
+  top: 390px;
+  z-index: 1;
+}
+.section4 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.section4 h1 {
+  position: absolute;
+  top: 174px;
+  left: 100px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 94.5%;
+  color: black;
 }
