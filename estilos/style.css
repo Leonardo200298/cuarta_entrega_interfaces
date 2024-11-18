@@ -350,6 +350,7 @@ span {
   position: relative;
   display: flex;
   justify-content: space-between;
+
 }
 .section4 h1 {
   position: absolute;
@@ -443,3 +444,10 @@ img #pjScrolll10{
   width: 359px;
   height: 488px;
 } */
+
+.section5{
+  position: relative;
+  background-image: url("/images/fondoSeccion5.png");
+  top: 5929px;
+
+}
