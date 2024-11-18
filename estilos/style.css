@@ -69,98 +69,132 @@ header img {
 
 .section1 {
   background-image: url("/images/primerFondo.png");
-  height: 959px;
+  width: 1279.07px;
+  height: 959.31px;
+  top: -0.33px;
+  left: -0.18px;
+  gap: 0px;
+  opacity: 0px;
+
   overflow: hidden;
   position: relative;
   z-index: -10;
 }
 
-#arbol1 {
-  position: absolute;
-  top: 0.69px;
-  margin-left: -150px;
+#arbol1 {/* acomodado */
+  position:absolute;
+  top: -1px;
+  margin-left: -153px;
+  z-index: 1;
 }
 
-#arbol2 {
+#arbol2 {/* acomodado */
   position: absolute;
-  left: 881px;
-  bottom: 179px;
+  top: 106.71px;
+  left: 881.03px;
+  z-index: 3;
 }
 
-#arbol3 {
+#arbol3 {/* acomodado */
   position: absolute;
-  bottom: 249px;
-  right: -80px;
+  top: 278.38px;
+  left: 1080.97px;
   z-index: -2px;
 }
 
-#arbusto1 {
+#arbusto1 {/* acomodado */
   position: absolute;
-  top: 719px;
-  left: 161px;
+  top: 630.46px;
+  left: 1028.46px;
   z-index: -1;
 }
 
-#arbusto2 {
+#arbusto2 {/* acomodado */
   position: absolute;
-  bottom: 39px;
-  left: 197px;
+  top: 662.1px;
+  left: 1080.97px;
   z-index: 2;
 }
 
-#arbusto3 {
+#arbusto3 {/* acomodado */
   position: absolute;
-  bottom: 189px;
-  right: -33px;
-  z-index: -1;
+  top: 821.65px;
+  left: 197.06px;
+  z-index: 3;
 }
 
-#piedra1 {
+#arbusto4{/* acomodado */
   position: absolute;
-  top: 793px;
-  left: 129px;
+  top: 717.97px;
+  left: 161.38px;
+
+}
+
+#piedra1 {/* acomodado */
+  position: absolute;
+  top: 793.367px;
+  left: 129.07px;
   z-index: 1;
 }
 
-#piedra2 {
+#piedra2 {/* acomodado */
   position: absolute;
-  right: 177px;
-  bottom: 164px;
+  top: 737.5px;
+  left: 1072.22px;
+  z-index: 4;
 }
 
-#piedra3 {
+#piedra3 {/* acomodado */
   position: absolute;
-  right: 92px;
-  bottom: 147px;
-  z-index: 1;
+  top: 737.5px;
+  left: 1031.84px;
+  z-index: 3;
 }
 
-#piedra4 {
+#piedra4 {/* acomodado */
   position: absolute;
-  right: 177px;
-  bottom: 137px;
-  z-index: 2;
+  top: 786.64px;
+  left: 1042.84px;
+  z-index: 5;
 }
 
-#pj1 {
+#pj1{
   position: absolute;
-
+/*   left: 400px; */
   right: 663px;
   bottom: 119.25px;
 }
 
-#pj2 {
+#pj2 {/* acomodado */
   position: absolute;
+  top: 426.04px;
   left: 536px;
-  bottom: 259px;
-  z-index: -1;
+  opacity: 0px;
+  z-index: 2;
 }
 
-#pj3 {
+#pj3 {/* acomodado */
   position: absolute;
   right: 355px;
   bottom: 215px;
-  z-index: -2;
+  top: 365px;
+  Left: 693.25px;
+  z-index: 1;
+}
+#sombraPersonaje1{/* acomodado */
+  position: absolute;
+  top: 773.28px;
+  left: 463px;
+}
+#sombraPersonaje2{/* acomodado */
+  position: absolute;
+  top: 746.04px;
+  left: 586px;
+}
+#sombraPersonaje3{
+  position: absolute;
+  top: 715px;
+  Left: 685.25px;
 }
 
 /* seccion 2 */
