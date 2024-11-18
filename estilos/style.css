@@ -355,8 +355,91 @@ span {
   position: absolute;
   top: 174px;
   left: 100px;
+  right: 378px;
   font-size: 60px;
   font-weight: 600;
   line-height: 94.5%;
   color: black;
 }
+/* .personaje0{
+  position: absolute;
+  top: 4286px;
+} */
+.imagenesScroll,
+.textoScroll {
+  position: absolute;
+  width: 467px;
+  display: flex;
+  flex-direction: column;
+}
+.imagenesScroll {
+  top: 299px;
+  left: 243px;
+}
+.imagenesScroll img {
+  align-self: start; 
+  height: auto;
+  width: auto;
+
+
+}
+
+.textoScroll {
+  top: 390px;
+  right: 100px;
+}
+.textoScroll div {
+  margin-bottom: 269px;
+}
+.textoScroll h3 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.textoScroll p {
+  font-size: 20px;
+}
+
+/* img #pjScrolll0{
+  width: 291px;
+  height: 436px;
+}
+img #pjScrolll1{
+  width: 379px;
+  height: 509px;
+}
+img #pjScrolll2{
+  width: 266px;
+  height: 479px;
+}
+img #pjScrolll3{
+  width: 187px;
+  height: 497px;
+}
+img #pjScrolll4{
+  width: 475px;
+  height: 488px;
+}
+img #pjScrolll5{
+  width: 231px;
+  height: 509px;
+}
+img #pjScrolll6{
+  width: 338px;
+  height: 514px;
+}
+img #pjScrolll7{
+  width: 134px;
+  height: 482px;
+}
+img #pjScrolll8{
+  width: 437px;
+  height: 499px;
+}
+img #pjScrolll9{
+  width: 485px;
+  height: 509px;
+}
+img #pjScrolll10{
+  width: 359px;
+  height: 488px;
+} */
