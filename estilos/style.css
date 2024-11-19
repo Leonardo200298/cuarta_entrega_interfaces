@@ -350,6 +350,7 @@ span {
   position: relative;
   display: flex;
   justify-content: space-between;
+  
 
 }
 .section4 h1 {
@@ -400,54 +401,19 @@ span {
   font-size: 20px;
 }
 
-/* img #pjScrolll0{
-  width: 291px;
-  height: 436px;
-}
-img #pjScrolll1{
-  width: 379px;
-  height: 509px;
-}
-img #pjScrolll2{
-  width: 266px;
-  height: 479px;
-}
-img #pjScrolll3{
-  width: 187px;
-  height: 497px;
-}
-img #pjScrolll4{
-  width: 475px;
-  height: 488px;
-}
-img #pjScrolll5{
-  width: 231px;
-  height: 509px;
-}
-img #pjScrolll6{
-  width: 338px;
-  height: 514px;
-}
-img #pjScrolll7{
-  width: 134px;
-  height: 482px;
-}
-img #pjScrolll8{
-  width: 437px;
-  height: 499px;
-}
-img #pjScrolll9{
-  width: 485px;
-  height: 509px;
-}
-img #pjScrolll10{
-  width: 359px;
-  height: 488px;
-} */
-
 .section5{
   position: relative;
   background-image: url("/images/fondoSeccion5.png");
-  top: 5929px;
+  top:5460px;
+  height: 1443.83px;
 
+}
+.imagenSeccion5{
+  position:absolute;
+  top: 351.83px;
+  left: 631px;
+}
+.contenedorVideoSeccion5{
+  width: 700px;
+  height: 19px;
 }
