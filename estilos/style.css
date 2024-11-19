@@ -412,8 +412,14 @@ span {
   position:absolute;
   top: 351.83px;
   left: 631px;
+  z-index: 1;
 }
 .contenedorVideoSeccion5{
-  width: 700px;
-  height: 19px;
+  position: absolute;
+  left: 91.5px;
+  top: 525.83px;
+  width: 804px;
+  height: 452px;
+  border: solid 30px white;
+  border-radius: 40px;
 }
