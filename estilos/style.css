@@ -350,7 +350,7 @@ span {
   position: relative;
   display: flex;
   justify-content: space-between;
-  
+  height: 5421px;
 
 }
 .section4 h1 {
@@ -404,7 +404,7 @@ span {
 .section5{
   position: relative;
   background-image: url("/images/fondoSeccion5.png");
-  top:5460px;
+
   height: 1443.83px;
 
 }
@@ -422,4 +422,35 @@ span {
   height: 452px;
   border: solid 30px white;
   border-radius: 40px;
+}
+.section6{
+  position: relative;
+  height: 1034px;
+}
+.section6 h1{
+  position: absolute;
+  top: 220px;
+  left: 102px;
+  width: 746px;
+  color: #9d2121;
+  font-size: 60px;
+  font-weight: 600;
+}
+.section6 p{
+  position: absolute;
+  top: 591px;
+  left: 100px;
+  width: 467px;
+  font-size: 20px;
+}
+.section6 #personaje1{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+}
+.ultimaParteSeccion6{
+  position: absolute;
+  width: 1296px;
+  height: 729px;
+  top: 1088px;
 }

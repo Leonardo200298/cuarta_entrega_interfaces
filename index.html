@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>NumberBlocks</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 
@@ -213,8 +213,28 @@
         <h1>Mira el video y descubre el sorprendente mundo de los NumberBlocks!</h1>
         <img class="imagenSeccion5" src="./images/personaje3Seccion5.png" alt="">
         <aside class="contenedorVideoSeccion5">
-            <iframe width="804" height="452" src="https://www.youtube.com/embed/0YKa9DQYdRg?si=avG_CgeWdgW_8-YF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="804" height="452" src="https://www.youtube.com/embed/0YKa9DQYdRg?si=avG_CgeWdgW_8-YF"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </aside>
+    </section>
+    <section class="section6">
+        <h1>¡Experimenta Efectos 3D Asombrosos en NumberBlocks: Una Aventura Matemática Inmersiva!</h1>
+        <!--         <img src="/images/personaje1ParaSeccion6.png" alt="">
+ -->
+        <p>En NumberBlocks, la aventura no solo está en el aprendizaje, ¡sino también en la experiencia visual! Disfruta
+            de efectos 3D asombrosos que dan vida a cada número y desafío, haciendo que las matemáticas cobren una nueva
+            dimensión. A medida que los niños interactúan con los personajes y los bloques, verán cómo sus acciones
+            tienen un impacto real en el entorno, creando un aprendizaje dinámico y emocionante. ¡Cada sesión de juego
+            se convierte en una experiencia inolvidable llena de color y diversión!</p>
+
+        <model-viewer id="personaje1" loading="eager" camera-controls touch-action="pan-y" auto-rotate
+            poster="../../assets/poster-shishkebab.webp" tone-mapping="aces" src="images/personaje1ParaSeccion6.glb"
+            shadow-intensity="1" style="width: 667px; height: 973px" alt="A 3D model of a shishkebab">
+
+        </model-viewer>
+        <img class="ultimaParteSeccion6" src="images/todosLosPjsSeccion6.svg" alt="">
     </section>
 </body>
 
