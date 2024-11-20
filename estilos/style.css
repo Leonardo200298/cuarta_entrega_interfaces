@@ -475,3 +475,150 @@ pjScrolll10 */
 
 
 /* } */
+
+
+
+
+/* seccion7 */
+.section7{
+  position: relative;
+  background: linear-gradient(180deg, #FFFFFF  0%, #EDFDFF 47.09%,  #ADF8FD 88.29%, #E0D299 107.02%);
+  width: 1280px;
+  height: 1296px;
+
+  margin-top: 1056px;
+  
+}
+
+.tituloSection7{
+position: absolute;
+font-family: Lato;
+font-size: 60px;
+font-weight: 600;
+line-height: 56.7px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+top: -84px;
+left: 100px;
+}
+
+.parrafoSection7{
+  position: absolute;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+
+
+  width: 578px;
+  height: 95px;
+  top: 269px;
+  left: 100px;
+  
+}
+
+.anchorParrafoSection7{
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: black;  
+}
+
+.nube1Section7{
+position: absolute;
+top: 234px;
+left: 794px;
+}
+
+.nube2Section7{
+position: absolute;
+top: 286px;
+left: 962px;
+}
+
+.nube3Section7{
+position: absolute;
+top: 545px;
+left: -56px;
+}
+
+.derechosSection7{
+position: absolute;
+top: 375px;
+left: 100px;
+}
+
+.fondoSection7{
+position: absolute;
+top: 907px;
+
+}
+
+.personaje2Section7{
+position: absolute;
+top: 744px;
+left: 65px;
+}
+.personaje3Section7{
+position: absolute;
+top: 745px;
+left: 407px;
+}
+.personaje7Section7{
+  position: absolute;
+top: 339px;
+left: 756px;
+Width: 500px;
+Height: 997px;
+}
+
+/* leable ///////////////////////////////////////////////////////////////////////////////////*/
+.form-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+
+  top: 123px;
+  left: 100px;
+}
+
+.email-input {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #666;
+}
+
+.email-input::placeholder {
+  color: #aaa;
+}
+
+.subscribe-button {
+  background-color: #6bc36b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 0 25px 25px 0;
+  cursor: default; /* Cursor sin interacción */
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
