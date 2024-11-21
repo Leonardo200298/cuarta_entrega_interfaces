@@ -33,3 +33,24 @@ function transicionMenuHamburguesa() {
   menuHamburguesa.classList.toggle("activo");
   menuLista.classList.toggle("activo");
 }
+
+
+
+
+
+
+
+// Selecciona todas las capas
+const layers = document.querySelectorAll('.layer');
+
+document.addEventListener('mousemove', (e) => {
+  // Calcula la posición del mouse en relación con el centro de la ventana
+  const x = (e.clientX / window.innerWidth) - 0.5;
+  const y = (e.clientY / window.innerHeight) - 0.5;
+
+  // Ajusta la posición de cada capa según su velocidad
+  layers.forEach(layer => {
+    const speed = layer.getAttribute('data-speed');
+    layer.style.transform = `translate(${x * speed * 100}px, ${y * speed * 100}px)`;
+  });
+});
