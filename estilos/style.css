@@ -24,7 +24,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px; 
-  background: linear-gradient(to bottom, #00D1D5 0%, white 100%);
+  background: linear-gradient(180deg, rgba(0,209,213,1) 0%, rgba(0,209,213,0.12) 88%, rgba(1,208,213,0) 100%);
 
   transition: all 0.6s ease;
 }
