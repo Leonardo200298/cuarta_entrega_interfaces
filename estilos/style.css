@@ -13,57 +13,101 @@
   max-width: 1280px;
   font-family: "Lato";
 }
+/* Parte de las transformaciones que haga para el scroll */
+.headerScroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; 
+  background: linear-gradient(180deg, rgba(0,209,213,1) 0%, rgba(0,209,213,0.12) 88%, rgba(1,208,213,0) 100%);
 
-header {
+  transition: all 0.6s ease;
+}
+
+.headerScroll img {
+  width: 80px; /* Logo más pequeño */
+  height: auto;
+  transition: all 0.6s ease; /* Transición del logo */
+}
+
+.menuDeHamburguesaScroll {
+  position:absolute;
+  left: 100px;
+}
+.logoScroll {
   position: absolute;
-  width: 1200px;
-  height: 103px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  z-index: 100;
+  left: 565px;
+  width: 150px; /* Tamaño reducido del logo */
+  height: 86px; /* Mantener proporción */
+
+}
+.botonComprarScroll {
+  position: absolute;
+  left: 880px;
+  font-size: 16px;
+  border-radius: 50px;
+  box-shadow: 2px 3px #02187e;
 }
 
-header>div {
-  display: flex;
-  justify-content: space-between;
-}
+/* ----------------------------------------------------- */
 
-.menuHambNB {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 100px;
-}
 
-.menuHambNB div {
-  width: 34px;
-  height: 4px;
-  border: solid;
-  border-radius: 111px;
-  border-color: white;
-  background-color: #f39e46;
-  box-shadow: 4px 5px #02187e;
-}
+/* Header */
+  header {
+    position: absolute;
+    width: 1200px;
+    height: 103px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 100;
+  }
 
-.btn-comprarNB {
-  padding: 16px 43px 15px 43px;
-  border: solid;
-  border-width: 8px;
-  border-radius: 111px;
-  border-color: white;
-  background-color: #83c252;
-  box-shadow: 4px 5px #02187e;
-  color: white;
-  font-size: 20px;
-}
+  header>div {
+    display: flex;
+    justify-content: space-between;
+  }
 
-header img {
-  position: relative;
-  width: 560px;
-  height: 320px;
+  .menuHambNB {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px;
+  }
 
-  left: 360px;
-}
+  .menuHambNB div {
+    width: 34px;
+    height: 4px;
+    border: solid;
+    border-radius: 111px;
+    border-color: white;
+    background-color: #f39e46;
+    box-shadow: 4px 5px #02187e;
+  }
+
+  .btn-comprarNB {
+    padding: 16px 43px 15px 43px;
+    border: solid;
+    border-width: 8px;
+    border-radius: 111px;
+    border-color: white;
+    background-color: #83c252;
+    box-shadow: 4px 5px #02187e;
+    color: white;
+    font-size: 20px;
+  }
+
+  header img {
+    position: relative;
+    width: 560px;
+    height: 320px;
+
+    left: 360px;
+  }
 
 /* seccion 1 */
 
