@@ -192,7 +192,7 @@ header img {
 /* seccion 1 */
 
 .section1 {
-  background-image: url("images/primerFondo.png");
+  background-image: url("../images/primerFondo.png");
   width: 1279.07px;
   height: 959.31px;
   top: -0.33px;
@@ -346,7 +346,7 @@ header img {
 
 .section2 {
   position: relative;
-  background-image: url("/images/ondaDeFondoDelFondo2.png");
+  background-image: url("../images/ondaDeFondoDelFondo2.png");
   background-repeat: no-repeat;
   height: 1852px;
 
@@ -412,22 +412,22 @@ header img {
 /* Animación para alternar imágenes */
 @keyframes cambiarImagen {
   0% {
-    background-image: url("/images/imagenDebajoPj3Pj4N1.png");
+    background-image: url("../images/imagenDebajoPj3Pj4N1.png");
 
   }
 
   33% {
-    background-image: url("/images/imagenDebajoPj3Pj4N2.png");
+    background-image: url("../images/imagenDebajoPj3Pj4N2.png");
 
   }
 
   66% {
-    background-image: url("/images/imagenDebajoPj3Pj4N3.png");
+    background-image: url("../images/imagenDebajoPj3Pj4N3.png");
 
   }
 
   100% {
-    background-image: url("/images/imagenDebajoPj3Pj4N1.png");
+    background-image: url("../images/imagenDebajoPj3Pj4N1.png");
 
   }
 }
@@ -467,7 +467,7 @@ aside p {
 
 /* seccion 3 */
 .section3 {
-  background-image: url("/images/tercerFondo.png");
+  background-image: url("../images/tercerFondo.png");
   height: 1157px;
   position: relative;
 }
@@ -593,7 +593,7 @@ span {
 
 .section5 {
   position: relative;
-  background-image: url("/images/fondoSeccion5.png");
+  background-image: url("../images/fondoSeccion5.png");
 
   height: 1443.83px;
 
