@@ -163,6 +163,23 @@ header>div {
   font-size: 20px;
 }
 
+.btn-comprarNB:hover{
+  animation: btn-comprar 700ms ease-in;
+}
+
+@keyframes btn-comprar {
+  0%{
+    background-color: #83c252;
+  }
+  50%{
+    background-color: #47692d;  
+  }
+  100%{
+    background-color: #83c252;
+
+  }
+}
+
 header img {
   position: relative;
   width: 560px;
