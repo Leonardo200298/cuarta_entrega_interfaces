@@ -408,21 +408,21 @@ aside p {
 
 #card1 {
   position: absolute;
-  bottom: 329px;
   left: 100px;
+  bottom: -900px;
 }
 
 #card2 {
   position: absolute;
   left: 473.52px;
-  bottom: 329px;
+  bottom: -900px;
 
 }
 
 #card3 {
   position: absolute;
   left: 847.04px;
-  bottom: 329px;
+  bottom: -900px;
 }
 
 /* seccion 3 */

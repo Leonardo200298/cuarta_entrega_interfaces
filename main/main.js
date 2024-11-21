@@ -54,3 +54,22 @@ document.addEventListener('mousemove', (e) => {
     layer.style.transform = `translate(${x * speed * 100}px, ${y * speed * 100}px)`;
   });
 });
+
+
+
+/* paralax vertical */
+// Selecciona todas las capas
+const layerScroll = document.querySelectorAll('.layerScroll');
+
+window.addEventListener('scroll', () => {
+  // Calcula el desplazamiento de scroll
+  const scrollTop = window.scrollY;
+
+  layerScroll.forEach(layer => {
+    // Obtén la velocidad desde el atributo data-speed
+    const speed = layer.getAttribute('data-speed');
+    // Mueve la capa verticalmente según la velocidad
+    layer.style.transform = `translateY(${-scrollTop * speed}px)`;
+  });
+});
+
