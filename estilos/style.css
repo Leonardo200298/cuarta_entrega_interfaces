@@ -192,7 +192,7 @@ header img {
 /* seccion 1 */
 
 .section1 {
-  background-image: url("/images/primerFondo.png");
+  background-image: url("images/primerFondo.png");
   width: 1279.07px;
   height: 959.31px;
   top: -0.33px;
