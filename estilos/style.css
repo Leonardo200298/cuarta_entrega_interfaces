@@ -28,9 +28,9 @@
 }
 
 .headerScroll img {
-  width: 80px;
+  width: 150px;
   /* Logo más pequeño */
-  height: auto;
+  height: 86px;
   transition: all 0.6s ease;
   /* Transición del logo */
 }
@@ -143,7 +143,7 @@ header>div {
   border-bottom: none;
 }
 
-/* Mostrar lista cuando está activo */
+
 #menuLista.activo {
   transform: scaleY(1);
   opacity: 1;
@@ -399,15 +399,35 @@ header img {
 .cuadroAzul {
   position: absolute;
   top: 356px;
+  left: 211px;
   border: solid 23px #1B5F99;
   border-radius: 77px;
-  left: 211px;
   width: 576.38px;
   height: 324.35px;
-  bottom: 213.65px;
-  /*   right: 600px; */
+  background-repeat: no-repeat; /* Evitar repeticiones */
+  background-size: 576px 324.30px;
+  animation: cambiarImagen 9s infinite; /* Controla la rotación de imágenes */
 }
 
+/* Animación para alternar imágenes */
+@keyframes cambiarImagen {
+  0% {
+    background-image: url("/images/imagenDebajoPj3Pj4N1.png");
+ 
+  }
+  33% {
+    background-image: url("/images/imagenDebajoPj3Pj4N2.png");
+
+  }
+  66% {
+    background-image: url("/images/imagenDebajoPj3Pj4N3.png");
+
+  }
+  100% {
+    background-image: url("/images/imagenDebajoPj3Pj4N1.png");
+
+  }
+}
 
 aside {
   display: flex;
@@ -622,11 +642,172 @@ span {
 }
 
 .ultimaParteSeccion6 {
-  position: absolute;
+  position: absolute; /* Se mantiene el position absolute */
   width: 1296px;
   height: 729px;
   top: 1088px;
+  background-image: url("");
+  background-size: cover; /* Ajusta el fondo a todo el contenedor */
+  background-position: center; /* Centra el fondo */
+  z-index: -1; /* Coloca esta capa detrás */
 }
+
+
+
+/* Ejemplo de posicionamiento para cada imagen */
+.pjr1 {
+  position: absolute; /* Imágenes posicionadas de manera absoluta */
+  
+  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  top: 1090px;
+  left: 1px;
+  width: 250px;
+  height: 380px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+}
+
+.pjr2 {
+  position: absolute; /* Imágenes posicionadas de manera absoluta */
+  
+  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  top: 1089px;
+  left: 278px;
+  width: 233px;
+  height: 379px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+}
+
+.pjr3 {
+  position: absolute; /* Imágenes posicionadas de manera absoluta */
+  
+  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  top: 1089px;
+  left: 548px;
+  width: 233px;
+  height: 379px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+}
+.pjr4 {
+  position: absolute; /* Imágenes posicionadas de manera absoluta */
+  
+  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  top: 1089px;
+  left: 811px;
+  width: 233px;
+  height: 379px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+}
+.pjr5 {
+  position: absolute; /* Imágenes posicionadas de manera absoluta */
+  
+  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  top: 1090px;
+  left: 1067px;
+  width: 233px;
+  height: 379px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+}
+.pjr6 {
+  position: absolute; /* Imágenes posicionadas de manera absoluta */
+  
+  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  top: 1489px;
+  left: 2px;
+  width: 245px;
+  height: 329px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+}
+.pjr7 {
+  position: absolute; /* Imágenes posicionadas de manera absoluta */
+  
+  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  top: 1489px;
+  left: 278px;
+  width: 247px;
+  height: 329px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+}
+.pjr8 {
+  position: absolute; /* Imágenes posicionadas de manera absoluta */
+  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  top: 1489px;
+  left: 541px;
+  width: 240px;
+  height: 329px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+}
+.pjr9{
+  position: absolute; /* Imágenes posicionadas de manera absoluta */
+  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  top: 1489px;
+  left: 810px;
+  width: 240px;
+  height: 329px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+}
+.pjr10{
+  position: absolute; /* Imágenes posicionadas de manera absoluta */
+  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  top: 1489px;
+  left: 1057px;
+  width: 240px;
+  height: 329px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+}
+.pjr1:hover {
+  transform: scale(1.2); /* Agranda un 20% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  z-index: 10;
+}
+.pjr2:hover {
+  transform: scale(1.2); /* Agranda un 20% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  z-index: 10;
+}.pjr3:hover {
+  transform: scale(1.2); /* Agranda un 20% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  z-index: 10;
+}
+.pjr4:hover {
+  transform: scale(1.2); /* Agranda un 20% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  z-index: 10;
+}.pjr5:hover {
+  transform: scale(1.2); /* Agranda un 20% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  z-index: 10;
+}
+.pjr6:hover {
+  transform: scale(1.2); /* Agranda un 20% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+}
+.pjr7:hover {
+  transform: scale(1.2); /* Agranda un 20% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+}
+.pjr8:hover {
+  transform: scale(1.2); /* Agranda un 20% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+}
+.pjr9:hover {
+  transform: scale(1.2); /* Agranda un 20% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+}
+.pjr10:hover {
+  transform: scale(1.2); /* Agranda un 20% */
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+}
+@keyframes hoverEffect {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 255, 0, 0);
+  }
+  100% {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
+  }
+}
+/* Continúa con las demás imágenes, ajustando top/left según tu diseño */
 
 /* pjScrolll0
 pjScrolll1
