@@ -29,10 +29,8 @@
 
 .headerScroll img {
   width: 150px;
-  /* Logo más pequeño */
   height: 86px;
   transition: all 0.6s ease;
-  /* Transición del logo */
 }
 
 .menuDeHamburguesaScroll {
@@ -44,9 +42,7 @@
   position: absolute;
   left: 565px;
   width: 150px;
-  /* Tamaño reducido del logo */
   height: 86px;
-  /* Mantener proporción */
 
 }
 
@@ -84,7 +80,7 @@ header>div {
   justify-content: space-between;
   width: 34px;
   height: 30px;
-  /* Espaciado entre barras */
+  /* Espaciado entre barras    */
   cursor: pointer;
   margin: 20px 100px;
   transition: all 0.4s ease;
@@ -94,7 +90,6 @@ header>div {
   width: 34px;
   height: 4px;
   border: solid 3px white;
-  /* Borde blanco */
   border-radius: 111px;
   background-color: #f39e46;
   box-shadow: 4px 5px #02187e;
@@ -108,7 +103,7 @@ header>div {
 
 .menuHambNB.activo div:nth-child(2) {
   opacity: 0;
- 
+
 }
 
 .menuHambNB.activo div:nth-child(3) {
@@ -123,7 +118,7 @@ header>div {
   margin: 0;
   position: absolute;
   top: 70px;
-  left: 190px;
+  left: 90px;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
@@ -132,6 +127,10 @@ header>div {
   transform-origin: top;
   transition: all 0.4s ease;
   opacity: 0;
+}
+
+#menuLista.scrolled {
+  left: 190px;
 }
 
 #menuLista li {
@@ -163,18 +162,20 @@ header>div {
   font-size: 20px;
 }
 
-.btn-comprarNB:hover{
+.btn-comprarNB:hover {
   animation: btn-comprar 700ms ease-in;
 }
 
 @keyframes btn-comprar {
-  0%{
+  0% {
     background-color: #83c252;
   }
-  50%{
-    background-color: #47692d;  
+
+  50% {
+    background-color: #47692d;
   }
-  100%{
+
+  100% {
     background-color: #83c252;
 
   }
@@ -338,7 +339,6 @@ header img {
   Left: 685.25px;
 }
 
-/* paralaxSection1 */
 
 /* //////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -404,25 +404,28 @@ header img {
   border-radius: 77px;
   width: 576.38px;
   height: 324.35px;
-  background-repeat: no-repeat; /* Evitar repeticiones */
+  background-repeat: no-repeat;
   background-size: 576px 324.30px;
-  animation: cambiarImagen 9s infinite; /* Controla la rotación de imágenes */
+  animation: cambiarImagen 9s infinite;
 }
 
 /* Animación para alternar imágenes */
 @keyframes cambiarImagen {
   0% {
     background-image: url("/images/imagenDebajoPj3Pj4N1.png");
- 
+
   }
+
   33% {
     background-image: url("/images/imagenDebajoPj3Pj4N2.png");
 
   }
+
   66% {
     background-image: url("/images/imagenDebajoPj3Pj4N3.png");
 
   }
+
   100% {
     background-image: url("/images/imagenDebajoPj3Pj4N1.png");
 
@@ -574,17 +577,18 @@ span {
 
 
 /* efecto de transcicion  */
-.image{
+.image {
   position: fixed;
-  top: 10%; 
+  top: 10%;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
 .image.active {
   opacity: 1;
-  z-index: 1; /* Eleva la imagen activa */
+  z-index: 1;
 }
+
 /* //////////////////////////////////////////////////////////////////////////////////// */
 
 .section5 {
@@ -642,222 +646,222 @@ span {
 }
 
 .ultimaParteSeccion6 {
-  position: absolute; /* Se mantiene el position absolute */
+  position: absolute;
   width: 1296px;
   height: 729px;
   top: 1088px;
   background-image: url("");
-  background-size: cover; /* Ajusta el fondo a todo el contenedor */
-  background-position: center; /* Centra el fondo */
-  z-index: -1; /* Coloca esta capa detrás */
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
 
 
 
 /* Ejemplo de posicionamiento para cada imagen */
 .pjr1 {
-  position: absolute; /* Imágenes posicionadas de manera absoluta */
-  
-  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  position: absolute;
+
+  z-index: 2;
   top: 1090px;
   left: 1px;
   width: 250px;
   height: 380px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Suaviza el agrandado e iluminación */
 }
 
 .pjr2 {
-  position: absolute; /* Imágenes posicionadas de manera absoluta */
-  
-  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  position: absolute;
+
+  z-index: 2;
   top: 1089px;
   left: 278px;
   width: 233px;
   height: 379px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .pjr3 {
-  position: absolute; /* Imágenes posicionadas de manera absoluta */
-  
-  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  position: absolute;
+
+  z-index: 2;
   top: 1089px;
   left: 548px;
   width: 233px;
   height: 379px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .pjr4 {
-  position: absolute; /* Imágenes posicionadas de manera absoluta */
-  
-  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  position: absolute;
+
+  z-index: 2;
   top: 1089px;
   left: 811px;
   width: 233px;
   height: 379px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;/
 }
+
 .pjr5 {
-  position: absolute; /* Imágenes posicionadas de manera absoluta */
-  
-  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  position: absolute;
+
+  z-index: 2;
   top: 1090px;
   left: 1067px;
   width: 233px;
   height: 379px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .pjr6 {
-  position: absolute; /* Imágenes posicionadas de manera absoluta */
-  
-  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  position: absolute;
+
+  z-index: 2;
   top: 1489px;
   left: 2px;
   width: 245px;
   height: 329px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .pjr7 {
-  position: absolute; /* Imágenes posicionadas de manera absoluta */
-  
-  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  position: absolute;
+
+  z-index: 2;
   top: 1489px;
   left: 278px;
   width: 247px;
   height: 329px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .pjr8 {
-  position: absolute; /* Imágenes posicionadas de manera absoluta */
-  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+  position: absolute;
+  z-index: 2;
   top: 1489px;
   left: 541px;
   width: 240px;
   height: 329px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.pjr9{
-  position: absolute; /* Imágenes posicionadas de manera absoluta */
-  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+
+.pjr9 {
+  position: absolute;
+  z-index: 2;
   top: 1489px;
   left: 810px;
   width: 240px;
   height: 329px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.pjr10{
-  position: absolute; /* Imágenes posicionadas de manera absoluta */
-  z-index: 2; /* Asegúrate de que las imágenes estén sobre el fondo */
+
+.pjr10 {
+  position: absolute;
+  z-index: 2;
   top: 1489px;
   left: 1057px;
   width: 240px;
   height: 329px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza el agrandado e iluminación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .pjr1:hover {
-  transform: scale(1.2); /* Agranda un 20% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
   z-index: 10;
 }
+
 .pjr2:hover {
-  transform: scale(1.2); /* Agranda un 20% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
-  z-index: 10;
-}.pjr3:hover {
-  transform: scale(1.2); /* Agranda un 20% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
   z-index: 10;
 }
+
+.pjr3:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
+  z-index: 10;
+}
+
 .pjr4:hover {
-  transform: scale(1.2); /* Agranda un 20% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
-  z-index: 10;
-}.pjr5:hover {
-  transform: scale(1.2); /* Agranda un 20% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
   z-index: 10;
 }
+
+.pjr5:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
+  z-index: 10;
+}
+
 .pjr6:hover {
-  transform: scale(1.2); /* Agranda un 20% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
 }
+
 .pjr7:hover {
-  transform: scale(1.2); /* Agranda un 20% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
 }
+
 .pjr8:hover {
-  transform: scale(1.2); /* Agranda un 20% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
 }
+
 .pjr9:hover {
-  transform: scale(1.2); /* Agranda un 20% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
 }
+
 .pjr10:hover {
-  transform: scale(1.2); /* Agranda un 20% */
-  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6); /* Iluminación amarilla suave */
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
 }
+
 @keyframes hoverEffect {
   0% {
     transform: scale(1);
     box-shadow: 0 0 0 rgba(255, 255, 0, 0);
   }
+
   100% {
     transform: scale(1.2);
     box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.6);
   }
 }
-/* Continúa con las demás imágenes, ajustando top/left según tu diseño */
-
-/* pjScrolll0
-pjScrolll1
-pjScrolll2
-pjScrolll3
-pjScrolll4
-pjScrolll5
-pjScrolll6
-pjScrolll7
-pjScrolll8
-pjScrolll9
-pjScrolll10 */
-
-/* seccion del scroll {*/
-
-@keyframes scroll {}
-
-
-
-/* } */
-
 
 
 
 /* seccion7 */
-.section7{
+.section7 {
   position: relative;
-  background: linear-gradient(180deg, #FFFFFF  0%, #EDFDFF 47.09%,  #ADF8FD 88.29%, #E0D299 107.02%);
+  background: linear-gradient(180deg, #FFFFFF 0%, #EDFDFF 47.09%, #ADF8FD 88.29%, #E0D299 107.02%);
   width: 1280px;
   height: 1296px;
 
   margin-top: 1056px;
-  
+
 }
 
-.tituloSection7{
-position: absolute;
-font-family: Lato;
-font-size: 60px;
-font-weight: 600;
-line-height: 56.7px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: black;
-top: -84px;
-left: 100px;
+.tituloSection7 {
+  position: absolute;
+  font-family: Lato;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 56.7px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: black;
+  top: -84px;
+  left: 100px;
 }
 
-.parrafoSection7{
+.parrafoSection7 {
   position: absolute;
   font-family: Lato;
   font-size: 20px;
@@ -866,17 +870,17 @@ left: 100px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  
+
 
 
   width: 578px;
   height: 95px;
   top: 269px;
   left: 100px;
-  
+
 }
 
-.anchorParrafoSection7{
+.anchorParrafoSection7 {
   font-family: Lato;
   font-size: 20px;
   font-weight: 400;
@@ -886,55 +890,57 @@ left: 100px;
   text-decoration-style: solid;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-color: black;  
+  color: black;
 }
 
-.nube1Section7{
-position: absolute;
-top: 234px;
-left: 794px;
-}
-
-.nube2Section7{
-position: absolute;
-top: 286px;
-left: 962px;
-}
-
-.nube3Section7{
-position: absolute;
-top: 545px;
-left: -56px;
-}
-
-.derechosSection7{
-position: absolute;
-top: 375px;
-left: 100px;
-}
-
-.fondoSection7{
-position: absolute;
-top: 907px;
-
-}
-
-.personaje2Section7{
-position: absolute;
-top: 744px;
-left: 65px;
-}
-.personaje3Section7{
-position: absolute;
-top: 745px;
-left: 407px;
-}
-.personaje7Section7{
+.nube1Section7 {
   position: absolute;
-top: 339px;
-left: 756px;
-Width: 500px;
-Height: 997px;
+  top: 234px;
+  left: 794px;
+}
+
+.nube2Section7 {
+  position: absolute;
+  top: 286px;
+  left: 962px;
+}
+
+.nube3Section7 {
+  position: absolute;
+  top: 545px;
+  left: -56px;
+}
+
+.derechosSection7 {
+  position: absolute;
+  top: 375px;
+  left: 100px;
+}
+
+.fondoSection7 {
+  position: absolute;
+  top: 907px;
+
+}
+
+.personaje2Section7 {
+  position: absolute;
+  top: 744px;
+  left: 65px;
+}
+
+.personaje3Section7 {
+  position: absolute;
+  top: 745px;
+  left: 407px;
+}
+
+.personaje7Section7 {
+  position: absolute;
+  top: 339px;
+  left: 756px;
+  Width: 500px;
+  Height: 997px;
 }
 
 /* leable ///////////////////////////////////////////////////////////////////////////////////*/
@@ -972,17 +978,20 @@ Height: 997px;
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 0 25px 25px 0;
-  cursor: default; /* Cursor sin interacción */
+  cursor: default;
+  /* Cursor sin interacción */
 }
+
 /* ///////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
 
 /* footer */
-footer{
+footer {
   background-color: #5e5e5d;
 }
-.containerPlataformasFooter{
+
+.containerPlataformasFooter {
   display: flex;
   width: 1280px;
   background-color: #242424;
@@ -990,7 +999,7 @@ footer{
 }
 
 
-.containerTextoFooter{
+.containerTextoFooter {
   background-color: #5e5e5d;
   display: flex;
   width: 1280px;
@@ -1000,40 +1009,40 @@ footer{
   align-items: flex-start;
 }
 
-.textoFooter{
-margin-left: 100px;
-width: 820px;
-height: 324px;
+.textoFooter {
+  margin-left: 100px;
+  width: 820px;
+  height: 324px;
 
-font-family: Lato;
-font-size: 20px;
-font-weight: 400;
-line-height: 18.9px;
-letter-spacing: 0.11em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #ffffff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18.9px;
+  letter-spacing: 0.11em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
 
 }
 
-.linkFooter{
+.linkFooter {
   margin-left: 100px;
   color: #FFFFFF;
   font-family: Lato;
-font-size: 20px;
-font-weight: 400;
-line-height: 18.9px;
-letter-spacing: 0.11em;
-text-align: left;
-text-decoration-line: underline;
-text-decoration-style: solid;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18.9px;
+  letter-spacing: 0.11em;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 
 }
 
-.redesSocialesFooter{
+.redesSocialesFooter {
   width: 212px;
   height: 41px;
   margin-left: 100px;
