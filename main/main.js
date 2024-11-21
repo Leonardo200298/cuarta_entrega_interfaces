@@ -73,3 +73,42 @@ window.addEventListener('scroll', () => {
   });
 });
 
+
+
+
+/* cambio de imagenes dependiendo de la altura del scroll */
+// Selecciona todas las imágenes de section4 y el contenedor .section4
+const images = document.querySelectorAll('.section4 .image');
+const section4 = document.querySelector('.section4');
+
+// Función para manejar las transiciones según la posición del scroll
+function updateActiveImage() {
+  const scrollPosition = window.scrollY;
+  const sectionTop = section4.offsetTop; // Posición superior de section4
+  const sectionHeight = section4.offsetHeight;
+  const sectionBottom = sectionTop + sectionHeight;
+
+  // Verifica si el scroll está dentro de la sección 4
+  if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+    const relativeScroll = scrollPosition - sectionTop + 100; // Desplazamiento relativo dentro de section4
+    const step = sectionHeight / images.length; // Altura para cada cambio de imagen
+
+    images.forEach((image, index) => {
+      // Activa la imagen correspondiente al scroll dentro de su rango
+      if (relativeScroll >= step * index && relativeScroll < step * (index + 1)) {
+        image.classList.add('active');
+      } else {
+        image.classList.remove('active');
+      }
+    });
+  } else {
+    // Fuera de section4, desactiva todas las imágenes
+    images.forEach(image => image.classList.remove('active'));
+  }
+}
+
+// Escucha el evento de scroll
+window.addEventListener('scroll', updateActiveImage);
+
+// Llama a la función al cargar la página para establecer el estado inicial
+updateActiveImage();

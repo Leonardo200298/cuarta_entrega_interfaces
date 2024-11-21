@@ -515,8 +515,6 @@ span {
   align-self: start;
   height: auto;
   width: auto;
-
-
 }
 
 .textoScroll {
@@ -536,6 +534,21 @@ span {
 .textoScroll p {
   font-size: 20px;
 }
+
+
+/* efecto de transcicion  */
+.image{
+  position: fixed;
+  top: 10%; 
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image.active {
+  opacity: 1;
+  z-index: 1; /* Eleva la imagen activa */
+}
+/* //////////////////////////////////////////////////////////////////////////////////// */
 
 .section5 {
   position: relative;
