@@ -47,6 +47,22 @@ function transicionMenuHamburguesa() {
   menuHamburguesa.classList.toggle("activo");
   menuLista.classList.toggle("activo");
 }
+/* const section4 = document.querySelector(".section4");
+const imagenes = document.querySelectorAll(".imagenesScroll img"); */
+
+/* section4.addEventListener("scroll", () => {
+  imagenes.forEach((img) => {
+    const rect = img.getBoundingClientRect();
+    const sectionRect = section4.getBoundingClientRect();
+
+    // Verifica si la imagen está dentro de la sección visible
+    if (rect.top >= sectionRect.top && rect.bottom <= sectionRect.bottom) {
+      img.style.transform = "scale(1.2)"; // Aumenta el tamaño
+    } else {
+      img.style.transform = "scale(1)"; // Vuelve al tamaño normal
+    }
+  });
+}); */
 
 
 
