@@ -980,6 +980,7 @@ Height: 997px;
 
 /* footer */
 footer{
+  position: relative;
   background-color: #5e5e5d;
 }
 .containerPlataformasFooter{
@@ -1037,4 +1038,28 @@ text-decoration-skip-ink: none;
   width: 212px;
   height: 41px;
   margin-left: 100px;
+}
+
+.pj100footer{
+  position: absolute;
+  height: 270px;
+  width: 270px;
+  top: 320px;
+  left: 810px;
+}
+
+.pj4footer{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: -20px;
+  left: 0px;
+}
+
+.pj1footer{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: -12px;
+  left: 1177px;
 }
